@@ -70,11 +70,16 @@ main {
 
 /* Headline styling */
 .head-line {
-  color: hsl(47, 88%, 63%);
   font-size: 24px;
   font-weight: 800;
   margin-left: 1em;
   cursor: pointer;
+  color: hsl(0, 0%, 7%);
+  transition: color 0.3s;
+}
+
+.head-line:hover {
+  color: hsl(47, 88%, 63%);
 }
 
 /* Content box styling */
