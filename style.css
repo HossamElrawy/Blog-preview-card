@@ -72,7 +72,7 @@ main {
 .head-line {
   font-size: 24px;
   font-weight: 800;
-  margin-left: 1em;
+  margin-left: 1rem;
   cursor: pointer;
   color: hsl(0, 0%, 7%);
   transition: color 0.3s;
