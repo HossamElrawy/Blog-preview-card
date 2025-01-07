@@ -1,34 +1,39 @@
+/* Reset margins and paddings */
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-main {
-  display: flex;
-  flex-direction: column;
-  background-color: hsl(0, 0%, 100%);
-  width: 368px;
-  padding: 16px 0;
-  font-family: "figtree";
-  border-radius: 12px;
-  border: 1px solid hsl(0, 0%, 7%);
-  box-shadow: 8px 8px 0px hsl(0, 0%, 7%);
-  row-gap: 12px;
-}
-.drawing {
-  text-align: center;
-  margin: 0;
-}
-.num1 {
-  border-radius: 12px;
-}
+/* Styling the body */
 body {
   background-color: hsl(47, 88%, 63%);
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Figtree", sans-serif;
 }
+
+/* Ensure full height for html */
+html {
+  height: 100%;
+}
+
+/* Main container styling */
+main {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(0, 0%, 100%);
+  width: 368px;
+  padding: 16px 0;
+  border-radius: 12px;
+  border: 1px solid hsl(0, 0%, 7%);
+  box-shadow: 8px 8px 0px hsl(0, 0%, 7%);
+  row-gap: 12px;
+}
+
+/* Responsive design for smaller screens */
 @media (max-width: 375px) {
   main {
     width: 250px;
@@ -38,10 +43,17 @@ body {
   }
 }
 
-html {
-  height: 100%;
+/* Styling for the SVG container */
+.drawing {
+  text-align: center;
 }
 
+/* Styling for the SVG */
+.num1 {
+  border-radius: 12px;
+}
+
+/* Outcome box styling */
 .outcome-box {
   background-color: hsl(47, 88%, 63%);
   width: fit-content;
@@ -51,9 +63,12 @@ html {
   border-radius: 4px;
 }
 
+/* Publish date styling */
 .publish-date {
   margin-left: 1em;
 }
+
+/* Headline styling */
 .head-line {
   color: hsl(47, 88%, 63%);
   font-size: 24px;
@@ -61,10 +76,14 @@ html {
   margin-left: 1em;
   cursor: pointer;
 }
+
+/* Content box styling */
 .content-box {
   margin-left: 1em;
   color: hsl(0, 0%, 42%);
 }
+
+/* Publisher info styling */
 .publisher-info {
   margin-left: 16px;
   display: flex;
@@ -72,6 +91,9 @@ html {
   column-gap: 12px;
   font-weight: 800;
 }
+
+/* Publisher picture styling */
 .publisher-picture {
   width: 3em;
+  border-radius: 50%;
 }
