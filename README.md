@@ -8,7 +8,7 @@ This project is a solution to a Frontend Mentor challenge. It focuses on creatin
 
 ### Live Demo
 
-You can view the live version of the project here: [Live Site URL](#)
+You can view the live version of the project here: [[Live Site URL](https://hossamelrawy.github.io/Blog-preview-card/)](#)
 
 ---
 
