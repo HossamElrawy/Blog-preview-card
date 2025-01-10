@@ -2,17 +2,6 @@
 
 A responsive blog preview card built using HTML and CSS. This project showcases a minimalist design, optimized for different screen sizes, and uses custom fonts and styling.
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
-- [Screenshots](#screenshots)
-- [Acknowledgments](#acknowledgments)
-
----
-
 ## Overview
 
 This project is a solution to a Frontend Mentor challenge. It focuses on creating a visually appealing and responsive blog preview card using foundational web development techniques.
@@ -39,11 +28,3 @@ You can view the live version of the project here: [Live Site URL](#)
 - **Google Fonts**: For custom typography.
 
 ---
-
-## Getting Started
-
-To view or modify the project locally:
-
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
